@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yiren.lu//sitemap.xml
+Sitemap: https://yiren.lu/sitemap.xml
