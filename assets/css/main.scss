@@ -23,3 +23,32 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+.more-info {
+  text-align: right;
+}
+
+
+
+body {
+  font-family: "Libertinus Serif";
+  font-size: 14pt;
+}
+
+.nav-item {
+  font-family: "Libertinus Sans";
+}
+
+.post-header {
+  font-family: "Libertinus Sans";
+}
+
+.site-name {
+  font-family: "Ananda Black", cursive;
+}
+
+code, kbd, pre, samp {
+  font-family: "MPLUS1Code", monospace;
+  font-size: 0.9em;
+}
