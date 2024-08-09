@@ -40,10 +40,6 @@ body {
   font-family: "Libertinus Sans";
 }
 
-.post-header {
-  font-family: "Libertinus Sans";
-}
-
 .site-name {
   font-family: "Ananda Black", cursive;
 }
@@ -51,4 +47,21 @@ body {
 code, kbd, pre, samp {
   font-family: "MPLUS1Code", monospace;
   font-size: 0.9em;
+}
+
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.card-title {
+  font-family: "Libertinus Sans";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.post-title {
+  font-family: "Libertinus Sans";
+  text-transform: uppercase;
+  font-size: 2rem;
 }
