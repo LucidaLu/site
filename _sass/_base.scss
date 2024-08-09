@@ -39,6 +39,15 @@
   src: url('../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'cnkai';
+  font-display: block;
+  src: url('../fonts/cnkai.ttf') format('truetype');
+}
+
+.chinese-name {
+  font-family: 'cnkai', sans-serif;
+}
 
 p,
 h1,
