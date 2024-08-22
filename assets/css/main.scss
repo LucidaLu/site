@@ -32,12 +32,13 @@ $max-content-width: {{ site.max_width }};
 
 
 body {
-  font-family: "Libertinus Serif";
+  font-family: "Roboto";
   font-size: 14pt;
+  font-weight: 400;
 }
 
 .nav-item {
-  font-family: "Libertinus Sans";
+  font-family: "Poppins";
 }
 
 .site-name {
@@ -51,23 +52,34 @@ code, kbd, pre, samp {
 
 .navbar-nav .nav-link {
   text-transform: uppercase;
+  font-family: "Poppins";
   font-size: small;
 }
 
 .card-title {
-  font-family: "Libertinus Sans";
+  font-family: "Poppins";
   text-transform: uppercase;
   font-size: 1.5rem;
 }
 
 .post-title {
-  font-family: "Libertinus Sans";
+  font-family: "Poppins";
   text-transform: uppercase;
   font-size: 2rem;
+  font-weight: 400;
 }
 
 h2 {
-  font-family: "Libertinus Sans";
+  font-family: "Poppins";
   text-transform: uppercase;
   font-size: 1.6rem;
+}
+
+.desc {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+b {
+  font-weight: bold;
 }

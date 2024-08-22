@@ -232,20 +232,25 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  .profile-content {
+    width: 220px;
+    margin: 0 auto;
+  }
 
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    text-align: right;
-    font-family: "Libertinus Sans";
+    font-size: 0.8em;
+    text-align: center;
+    // font-family: "Libertinus Sans";
 
     p {
       display: inline-block;
       margin: 0;
       color: grey;
-      font-style: italic
     }
   }
+  padding-bottom: 1rem;
 }
 
 .profile.float-right {
@@ -253,19 +258,25 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
-
+    width: 220px;
+    .profile-content {
+      width: 100%;
+    }
+    .more-info {
+      text-align: right;
+    }
     .address {
       p {
         display: block;
       }
     }
   }
+  
 }
 
 .post-description {

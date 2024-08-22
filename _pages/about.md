@@ -5,7 +5,7 @@ permalink: /
 subtitle: Master's candidate @ <a href='http://english.ict.cas.cn'>ICT, CAS</a> 
 
 profile:
-  align: right
+  align: left
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -21,3 +21,4 @@ I am a master's candidate at Laboratory for Quantum Computation and Theoretical 
 
 My research has been focused on quantum computation, specifically, quantum circuit optimization and variational quantum algorithms. I also have a strong interest in algorithmic graph theory.
 
+I am currently looking for a Ph.D. position   starting in fall 2025.
