@@ -59,7 +59,7 @@
       "name": "Optimized synthesis of 2-degree parity network",
       "publisher": "In submission",
       "releaseDate": "2024",
-      "summary": "We consider the problem of synthesizing a 2-degree parity network with the minimum number of CNOT gates."
+      "summary": "We study the problem of optimal synthesis of 2-degree parity network, a family of quantum circuits which is widely used by quantum algorithms, such as QAOA. We give two lower bounds for the size of parity network and propose two algorithms that synthesize parity networks matching these bounds. Our method could cut down the parity network size by up to 50%, which is significant for NISQ era where the gate fidelity is low and the circuit size should be minimized."
     }
   ],
   "academic services": [
@@ -76,6 +76,44 @@
       "date": "2021-08",
       "awarder": "China Computer Federation",
       "url": "https://www.ccf.org.cn/Focus/2022-12-13/781254.shtml"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Quantum computation",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum circuit synthesis",
+        "Variational quantum algorithms"
+      ]
+    },
+    {
+      "name": "Graph theory",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Recognition of graph classes",
+        "Quantum speed-up for graph problems"
+      ]
+    },
+    {
+      "name": "Other random topics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Approximation algorithms",
+        "Computational complexity"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "TOEFL 106, GRE 324+4",
+      "icon": ""
     }
   ],
   "certificates": [
@@ -124,45 +162,23 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Programming",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C++",
+        "Python",
+        "HTML/CSS",
+        "Javascript",
+        "LaTeX"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "Cooking",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": []
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+
   "references": [
     {
       "name": "Professor John Doe",
