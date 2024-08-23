@@ -1,11 +1,11 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="card-text font-weight-normal list-group list-group-flush">
   {% for content in data[1] %}
     <li class="list-group-item">
       <div class="row">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             {{ content.title }}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="{{ content.url }}">{{ content.where }}</a> (×{{ content.cnt }})</h6>
+          <h6 class="ml-1 ml-md-4 font-weight-normal" style="font-size: 0.95rem"><a href="{{ content.url }}">{{ content.where }}</a> ({{ content.cnt }})</h6>
       </div>
     </li>
   {% endfor %}

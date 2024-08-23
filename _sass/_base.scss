@@ -232,6 +232,8 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  padding-bottom: 1rem;
+
   .profile-content {
     width: 220px;
     margin: 0 auto;
@@ -250,7 +252,6 @@ ul.task-list input[type="checkbox"] {
       color: grey;
     }
   }
-  padding-bottom: 1rem;
 }
 
 .profile.float-right {
