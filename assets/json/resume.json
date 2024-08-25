@@ -26,7 +26,12 @@
       "location": "Beijing, China",
       "url": "http://english.ict.cas.cn/",
       "area": "quantum computation, theoretical computer science",
+      "items": [
+        "Advisor: Xiaoming Sun",
+        "Research area: quantum computation, theoretical computer science"
+      ],
       "studyType": "Master's candidate",
+      "major": "Computer Software and Theory",
       "startDate": "2022-08",
       "endDate": "present"
     },
@@ -35,6 +40,10 @@
       "location": "Beijing, China",
       "url": "https://scs.bupt.edu.cn/",
       "area": "major: computer science and technology",
+      "major": "Computer Science and Technology",
+      "items": [
+        "GPA: 90.34/100 (5%)"
+      ],
       "studyType": "Bachelor of Engineering",
       "startDate": "2018-09",
       "endDate": "2022-07"
@@ -42,7 +51,7 @@
     {
       "institution": "Rizhao No.1 Middle School",
       "location": "Shandong, China",
-      "studyType": "Graduation",
+      "studyType": "Senior High School Education",
       "startDate": "2015-09",
       "endDate": "2018-06"
     }
@@ -72,10 +81,40 @@
   ],
   "awards": [
     {
-      "title": "The CCF Outstanding Undergraduate Award",
+      "title": "CCF Outstanding Undergraduate Award",
       "date": "2021-08",
       "awarder": "China Computer Federation",
       "url": "https://www.ccf.org.cn/Focus/2022-12-13/781254.shtml"
+    },
+    {
+      "title": "Gold Medal (ranking 6/1000+)",
+      "date": "2020-10",
+      "awarder": "CCF Collegiate Computer Systems & Programming Contest (CCSP 2020)",
+      "url": "https://www.ccf.org.cn/ccsp/2020-10-26/710525.shtml"
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2019-12",
+      "awarder": "International Collegiate Programming Contest (ICPC), Asia East Continent Final",
+      "url": "https://www.noi.cn/ccf/file/do?fid=b3hALeN2&attach=n"
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2018-11",
+      "awarder": "China Collegiate Programming Contest (CCPC), Guilin Onsite",
+      "url": "https://ccpc.io/post/136"
+    },
+    {
+      "title": "Bronze Medal",
+      "date": "2017-07",
+      "awarder": "National Olympiad in Informatics (NOI 2017)",
+      "url": "https://www.ccf.org.cn/ccsp/2020-10-26/710525.shtml"
+    },
+    {
+      "title": "Silver Medal",
+      "date": "2017-02",
+      "awarder": "National Olympiad of Informatics' Winter Camp (WC 2017)",
+      "url": "https://www.noi.cn/ccf/file/do?fid=b3hALeN2&attach=n"
     }
   ],
   "interests": [
@@ -178,7 +217,6 @@
       "keywords": []
     }
   ],
-
   "references": [
     {
       "name": "Professor John Doe",

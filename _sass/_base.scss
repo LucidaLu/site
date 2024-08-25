@@ -45,6 +45,31 @@
   src: url('../fonts/cnkai.ttf') format('truetype');
 }
 
+
+@font-face {
+  font-family: 'Harding';
+  src: url('../fonts/Harding Text Web.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Harding';
+  src: url('../fonts/Harding Text Web Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Harding';
+  src: url('../fonts/Harding Text Web Italic.woff2') format('woff2');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Harding';
+  src: url('../fonts/Harding Text Web Bold Italic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
 .chinese-name {
   font-family: 'cnkai', sans-serif;
 }
