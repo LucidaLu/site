@@ -8,8 +8,8 @@
 \begin{flushright}
   \setstretch{0.6}
   % \item {\Calluna (+00) 111-2222-3333}  % Phone number
-  \item {\Calluna luyiren12@gmail.com}  % E-mail address
-  \item {\Calluna \url{http://yiren.lu}}  % Home page
+  \item {\Calluna {{basics.email}}}  % E-mail address
+  \item {\Calluna \url{ {{basics.full_homepage}}}}  % Home page
 \end{flushright}\vspace{-45pt}
 
 \begin{flushleft}  % Rplace here with your name (and identity if required)
@@ -21,21 +21,19 @@
 \sectionBlock{
   \section{Education}
 }{
+  {% for entry in education %}
   \eduHeading
-  {Department of Automation, Tsinghua University}{Beijing, China}
-  {Ph.D. in Control Science and Engineering}{2022 - 2028 \footnotesize{\textit{(expected)}}}
+  {\unskip {{entry.institution}}}{\unskip {{entry.location}}}
+  {\unskip {{entry.studyType}} {% if entry.major %} in {% endif %} {{entry.major}}}{ {{entry.startDate 
+| date: "%Y.%m" }} - {{entry.endDate | date: "%Y.%m" }}}
+  {% if entry.items %}
   \itemListStart
-  \myItem{Advisor: Prof. Xiao Yuan}
-  \myItem{Research area: Operations Research and Machine Learning}
+  {% for item in entry.items %}
+  \myItem{\unskip {{item}}}
+  {% endfor %}
   \itemListEnd
-
-  \eduHeading
-  {Department of Precision Instrument, Tsinghua University}{Beijing, China}
-  {B.E. in Measurement and Control Technology and Instrument}{2018 - 2022}
-  \itemListStart
-  \myItem{GPA: 0.00/4.00, Rank: 64/64.}
-  \itemListEnd
-
+  {% endif %}
+  {% endfor %}
 }
 
 % -------------------- PUBLICATIONS --------------------
@@ -87,10 +85,9 @@
 }{
   \awardListStart
   \justifying
-  \item \emph{First Prize}, International Data Science Challenge \hfill 2023.11
-  \item \emph{Best Innovation Award}, Tech Startup Pitch Competition \hfill 2023.05
-  \item \emph{Excellence in Research Award}, Annual Research Symposium, \hfill 2022.12
-  \item \emph{Academic Scholarship}, Tsinghua University \hfill 2022.09
+  {% for entry in awards %}
+  \item \emph{\unskip {{entry.title}}},{ {{entry.awarder}}} \hfill {{entry.date | date: "%Y.%m"}}
+  {% endfor %}
   \awardListEnd
 }
 
