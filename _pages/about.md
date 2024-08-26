@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's candidate @ <a href='http://english.ict.cas.cn'>ICT, CAS</a> 
+subtitle: A non-deterministic choice maker
 
 profile:
   align: left
