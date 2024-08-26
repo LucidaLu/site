@@ -9,7 +9,7 @@
   \setstretch{0.6}
   % \item {\Calluna (+00) 111-2222-3333}  % Phone number
   \item {\Calluna {{basics.email}}}  % E-mail address
-  \item {\Calluna \url{ {{basics.full_homepage}}}}  % Home page
+  \item {\Calluna \url{ {{basics.homepage}}}}  % Home page
 \end{flushright}\vspace{-45pt}
 
 \begin{flushleft}  % Rplace here with your name (and identity if required)
@@ -42,41 +42,10 @@
 }{
   \pubListStart
   \justifying
-  \item \textbf{Xiao Yuan}, Hua Li. The Future Urban Transportation Systems: Innovations and Challenges. \textit{Journal of Operations Research and Optimization}, 2024.
-  \item Hua Li, \textbf{Xiao Yuan}, John Doe. Optimizing Logistics and Supply Chain Networks Using Machine Learning Techniques. \textit{International Conference on Operations Research and Machine Learning}, 2023.
-  \item John Doe, \textbf{Xiao Yuan}, Hua Li. Artificial Intelligence in Healthcare: Transforming Diagnostics and Treatment. \textit{International Conference on HealthTech Innovations}, 2023.
+  {% for entry in publications %}
+  \item {{entry.author}}. {{entry.name}}.\textit{ {{entry.publisher}}}, {{entry.releaseDate}}.
+  {% endfor %}
   \pubListEnd
-}
-
-% -------------------- PROJECTS --------------------
-\sectionBlock{
-  \section{Projects}
-}{
-  \projHeading
-  {\textbf{Advanced Optimization Techniques for Smart Grid Management}}
-  {National Natural Science Foundation of China (NSFC)} {2023.01 - 2024.01}
-
-  \projHeading
-  {\textbf{Optimizing Urban Traffic Flow Using AI-Based Predictive Models}}
-  {Smart Transportation Innovations Grant} {2021.12 - 2022.12}.
-}
-
-% -------------------- INTERNSHIPS --------------------
-\sectionBlock{
-  \section{Internships}
-}{
-  \internHeading
-  {ABC Tech Ltd.}{Shanghai, China}{2024.01 - 2024.06}
-  \itemListStart
-  \myItem{Develop engaging content for social media platforms.}
-  \myItem{Prepare reports and presentations summarizing research findings.}
-  \itemListEnd
-  \internHeading
-  {XYZ Tech Inc.}{Shanghai, China}{2023.07 - 2023.12}
-  \itemListStart
-  \myItem{Develop engaging content for social media platforms.}
-  \myItem{Prepare reports and presentations summarizing research findings.}
-  \itemListEnd
 }
 
 % -------------------- AWARDS & HONORS --------------------
@@ -97,8 +66,9 @@
 }{
 \skillListStart
 \justifying
-\item \emph{Languages}: Chinese, English, French.
-\item \emph{Programming}: {\Courier \fontsize{11pt}{11pt}\selectfont Python}, {\Courier \fontsize{11pt}{11pt}\selectfont C++}, {\Courier \fontsize{11pt}{11pt}\selectfont MATLAB}.
+\item \emph{Languages}: Chinese, English
+\item \emph{Programming}: \texttt{\fontsize{11pt}{11pt}\selectfont Python}, \texttt{\fontsize{11pt}{11pt}\selectfont C++}
+\item \emph{Cooking}
 \skillListEnd
 }
 
@@ -108,7 +78,12 @@
 }{
   \skillListStart
   \justifying
-  \item \emph{Reviewer for}: \textit{Quantum Science and Technology}
+  {% for entry in academic-services %}
+  \item \emph{\unskip {{entry.rule}}}: 
+  {%- for e in entry.pubs -%}
+  \textit{ {{e.title}}}{% unless forloop.last %}, {% endunless %}
+  {%- endfor -%}
+  {% endfor %}
   \skillListEnd
 }
 

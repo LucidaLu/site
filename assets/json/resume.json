@@ -58,25 +58,31 @@
   ],
   "publications": [
     {
-      "name": "QAOA with fewer qubits: a coupling framework to solve larger-scale Max-Cut problem",
-      "publisher": "arXiv preprint arXiv:2307.15260",
-      "releaseDate": "2023",
-      "url": "https://arxiv.org/abs/2307.15260",
-      "summary": "QAOA has been widely employed to solve Max-Cut as a candidate for quantum advantage in NISQ era. However, as the size of the problem become larger, the number of qubits required will increase linearly. With the aim of saving qubits, we propose a coupling framework for designing QAOA circuits to solve larger-scale Max-Cut problem and give some analytical and numerical results."
-    },
-    {
       "name": "Optimized synthesis of 2-degree parity network",
       "publisher": "In submission",
       "releaseDate": "2024",
+      "author": "**Yiren Lu**, Junhong Nie, Xiaoming Sun, Guojing Tian",
       "summary": "We study the problem of optimal synthesis of 2-degree parity network, a family of quantum circuits which is widely used by quantum algorithms, such as QAOA. We give two lower bounds for the size of parity network and propose two algorithms that synthesize parity networks matching these bounds. Our method could cut down the parity network size by up to 50%, which is significant for NISQ era where the gate fidelity is low and the circuit size should be minimized."
+    },
+    {
+      "name": "QAOA with fewer qubits: a coupling framework to solve larger-scale Max-Cut problem",
+      "publisher": "arXiv preprint arXiv:2307.15260",
+      "author": "**Yiren Lu**, Guojing Tian, Xiaoming Sun",
+      "releaseDate": "2023",
+      "url": "https://arxiv.org/abs/2307.15260",
+      "summary": "QAOA has been widely employed to solve Max-Cut as a candidate for quantum advantage in NISQ era. However, as the size of the problem become larger, the number of qubits required will increase linearly. With the aim of saving qubits, we propose a coupling framework for designing QAOA circuits to solve larger-scale Max-Cut problem and give some analytical and numerical results."
     }
   ],
-  "academic services": [
+  "academic-services": [
     {
-      "title": "Reviewer",
-      "where": "Quantum Science and Technology",
-      "url": "https://iopscience.iop.org/journal/2058-9565",
-      "cnt": 3
+      "rule": "Reviewer",
+      "pubs": [
+        {
+          "title": "Quantum Science and Technology",
+          "url": "https://iopscience.iop.org/journal/2058-9565",
+          "cnt": 3
+        }
+      ]
     }
   ],
   "awards": [

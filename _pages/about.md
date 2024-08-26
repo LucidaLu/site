@@ -4,6 +4,7 @@ title: about
 permalink: /
 subtitle: A non-deterministic choice maker
 
+
 profile:
   align: left
   image: profile.jpg
