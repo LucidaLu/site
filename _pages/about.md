@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: A non-deterministic choice maker
+subtitle: Making certificate tapes for NDTMs.
 
 
 profile:
