@@ -47,25 +47,54 @@
 
 
 @font-face {
-  font-family: 'Harding';
-  src: url('../fonts/Harding Text Web.woff2') format('woff2');
+  font-family: 'serif-font';
+  src: url('../fonts/charter_regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Harding';
-  src: url('../fonts/Harding Text Web Bold.woff2') format('woff2');
+  font-family: 'serif-font';
+  src: url('../fonts/charter_bold.woff2') format('woff2');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Harding';
-  src: url('../fonts/Harding Text Web Italic.woff2') format('woff2');
+  font-family: 'serif-font';
+  src: url('../fonts/charter_italic.woff2') format('woff2');
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Harding';
-  src: url('../fonts/Harding Text Web Bold Italic.woff2') format('woff2');
+  font-family: 'serif-font';
+  src: url('../fonts/charter_bold_italic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'sans-font';
+  src: url('../fonts/AlegreyaSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'sans-font';
+  src: url('../fonts/AlegreyaSans-Bold.woff2') format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'sc-sans-font';
+  src: url('../fonts/AlegreyaSansSC-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'sans-font';
+  src: url('../fonts/AlegreyaSans-Italic.woff2') format('woff2');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'sans-font';
+  src: url('../fonts/AlegreyaSans-BoldItalic.woff2') format('woff2');
   font-weight: bold;
   font-style: italic;
 }
