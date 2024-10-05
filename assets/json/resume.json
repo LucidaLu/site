@@ -47,13 +47,6 @@
       "studyType": "Bachelor of Engineering",
       "startDate": "2018-09",
       "endDate": "2022-07"
-    },
-    {
-      "institution": "Rizhao No.1 Middle School",
-      "location": "Shandong, China",
-      "studyType": "Senior High School Education",
-      "startDate": "2015-09",
-      "endDate": "2018-06"
     }
   ],
   "publications": [
@@ -147,6 +140,18 @@
         "Approximation algorithms",
         "Computational complexity"
       ]
+    }
+  ],
+  "teaching-assistants": [
+    {
+      "course": "Quantum Computation and Quantum Software",
+      "institution": "University of Chinese Academy of Sciences",
+      "time": "Spring 2024"
+    },
+    {
+      "course": "Data Structures I",
+      "institution": "Renmin University of China",
+      "time": "Autumn 2024"
     }
   ],
   "languages": [
