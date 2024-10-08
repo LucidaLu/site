@@ -38,7 +38,7 @@
 
 % -------------------- PUBLICATIONS --------------------
 \sectionBlock{
-  \section{Publications}
+  \section{Research}
 }{
   \pubListStart
   \justifying
@@ -60,14 +60,44 @@
   \awardListEnd
 }
 
+
+\sectionBlock{
+  \section{Interests}
+}{
+  \skillListStart
+  \justifying
+  {% for entry in interests %}
+  \item \emph{\unskip {{entry.name}}}: {  } {%- for k in entry.keywords -%}
+  {{k | downcase }}{% unless forloop.last %}, {% endunless %}
+  {%- endfor -%}
+  {% endfor %}
+  \skillListEnd
+}
+
+
+\sectionBlock{
+  \section{Teaching Assistants}
+}{
+  \skillListStart
+  \justifying
+  {% for entry in teaching-assistants %}
+  \item \emph{\unskip {{entry.course}}}
+  
+  {{entry.institution}}\hfill {{entry.time}}
+  {% endfor %}
+  \skillListEnd
+}
+
+
+
 % -------------------- SKILLS --------------------
 \sectionBlock{
 \section{Skills}
 }{
 \skillListStart
 \justifying
-\item \emph{Languages}: Chinese, English
-\item \emph{Programming}: \texttt{\fontsize{11pt}{11pt}\selectfont Python}, \texttt{\fontsize{11pt}{11pt}\selectfont C++}
+\item \emph{Languages}: Chinese, English (TOEFL 106, GRE 324+4)
+\item \emph{Programming}: \texttt{Python}, \texttt{C++}, \texttt{JavaScript}, \texttt{LaTeX}
 \item \emph{Cooking}
 \skillListEnd
 }
