@@ -7,7 +7,7 @@ subtitle: Making certificate tapes for NDTMs.
 
 profile:
   align: left
-  image: profile.jpg
+  image: self.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>No.6 Kexueyuan South Road, Zhongguancun, Haidian District</p>
